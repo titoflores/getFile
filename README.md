@@ -8,5 +8,5 @@
 
 ## How to compile:
 
-* Execute the following command.
+-Execute the following command.
 * go run main.go aplication.go struct.go
