@@ -15,5 +15,5 @@ func main() {
 	router.HandleFunc("/documents/{ID}", getDocumentsById).Methods("GET")
 	router.HandleFunc("/CreateDocuments", createDocument).Methods("POST")
 	router.HandleFunc("/DeleteDocuments/{ID}", deleteDocument).Methods("DELETE")
-	log.Fatal(http.ListenAndServe(":9000", router))
+	log.Fatal(http.ListenAndServe(":8000", router))
 }
